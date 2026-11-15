@@ -81,6 +81,18 @@ public class PlayerController : MonoBehaviour
         get { return walkSpeed; }
     }
 
+    // Lo lee PlayerNoiseEmitter para poner el techo de la tabla de ruido
+    public float SprintSpeed
+    {
+        get { return sprintSpeed; }
+    }
+
+    // Lo lee PlayerNoiseEmitter para poner el primer tramo de la tabla de ruido
+    public float CrouchWalkSpeed
+    {
+        get { return crouchWalkSpeed; }
+    }
+
     // Lo lee PlayerCameraController para subir o bajar el FOV
     public float SprintBlend
     {
